@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>¡Feliz Cumpleaños, mi dadita! ✨</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <!-- Elemento de audio (asegúrate de tener tu archivo como musica.mp3 en la misma carpeta) -->
+  <audio id="bg-music" src="así se escucharía si los ángeles cantaran 🌙 Zoé - Luna.mp3" loop></audio>
+
+  <!-- Botón flotante para pausar/reproducir la música -->
+  <button id="music-toggle" class="music-btn" title="Reproducir / Pausar música">🎵</button>
+
+  <div class="stage">
+    <div class="stars" id="stars"></div>
+
+    <!-- Mensaje de texto principal y frase triste/romántica final -->
+    <div class="message" id="message">
+      Hay días en el año que se sienten mágicos…
+    </div>
+
+    <!-- Contenedor para mostrar fotos una por una recordando momentos -->
+    <div class="memory-photo-container" id="memory-container">
+      <img id="memory-img" src="" alt="Nuestro recuerdo">
+    </div>
+
+    <!-- Cuadro final de fotos (Galería de 4 columnas x 4 filas) -->
+    <div class="gallery-grid" id="gallery-grid">
+      <!-- Reemplaza 'foto1.jpg', 'foto2.jpg' hasta la 16 con los nombres reales de tus fotos -->
+      <div class="gallery-item"><img src="SORIENTES.jpeg" alt="Recuerdo"></div>
+      <div class="gallery-item"><img src="FOTO EN CARRO ABRAZADOS.jpeg" alt="Recuerdo"></div>
+      <div class="gallery-item"><img src="FOTO CON BOTELLA CARRO.jpeg" alt="Recuerdo"></div>
+      <div class="gallery-item"><img src="PARQUE DE LAS AGUAS CUADRO.jpeg" alt="Recuerdo"></div>
+      <div class="gallery-item"><img src="pARQUE DE LA AGUAS SELFEI.jpeg" alt="Recuerdo"></div>
+      <div class="gallery-item"><img src="pARQUE DE LAS AGUAS BESO.jpeg" alt="Recuerdo"></div>
+      <div class="gallery-item"><img src="CON CAPUCHA.jpeg" alt="Recuerdo"></div>
+      <div class="gallery-item"><img src="FOTO ABRAZDASOS.jpeg" alt="Recuerdo"></div>
+      <div class="gallery-item"><img src="BRAZO RODEANDO CABEZA.jpeg"" alt="Recuerdo"></div>
+      <div class="gallery-item"><img src="BESO EN PUENTE.jpeg" alt="Recuerdo"></div>
+      <div class="gallery-item"><img src="BESO EN EL CUELLO.jpeg" alt="Recuerdo"></div>
+      <div class="gallery-item"><img src="ABRAZADOS.jpeg"></div>
+      <div class="gallery-item"><img src="FOTO DE PIES.jpeg" alt="Recuerdo"></div>
+      <div class="gallery-item"><img src= "CHUTO ABRAZADOS.jpeg" alt="Recuerdo"></div>
+      <div class="gallery-item"><img src="ATARDECER MANOS.jpeg"></div>
+      <div class="gallery-item"><img src="MANO CORAZONES.jpeg"alt="Recuerdo"></div>
+    </div>
+
+    <img
+      class="scene"
+      id="scene-img"
+      src="escena-principito.jpg"
+      alt="El Principito y el zorro bajo una estrella"
+    >
+
+    <div class="footer" id="footer-text">❤️ MI DADITA HERMOSA!✦ ❤️</div>
+
+    <div class="intro" id="intro">
+      <h1>Un pequeño detalle para ti</h1>
+      <p>Para mi persona favorita que ilumina todo mi universo</p>
+      <button id="start">Click para abrir regalo✨</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
